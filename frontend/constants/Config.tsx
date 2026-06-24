@@ -22,7 +22,7 @@ const localIP = getLocalBackendIP();
 
 export const API_URL = __DEV__
   ? `http://${localIP}:3000`
-  : (process.env.EXPO_PUBLIC_API_URL || "https://demo2026pondy-production.up.railway.app");
+  : (process.env.EXPO_PUBLIC_API_URL || "https://conestone2026-production.up.railway.app");
 
 console.log(
   `🌐 [Config] API_URL: ${API_URL} | Platform: ${Platform.OS} | Env: ${process.env.NODE_ENV}`,
