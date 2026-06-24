@@ -20,7 +20,7 @@ function loadConfig(): BridgeConfig {
     const defaultConfig: BridgeConfig = {
       storeId: 'STORE_001',
       bridgeToken: 'unipro-pos-bridge-token-2026',
-      apiUrl: 'https://demo2026pondy-production.up.railway.app',
+      apiUrl: 'https://conestone2026-production.up.railway.app',
       pollIntervalMs: 2000,
       port: 3050
     };
@@ -37,7 +37,7 @@ function loadConfig(): BridgeConfig {
     return {
       storeId: 'STORE_001',
       bridgeToken: 'unipro-pos-bridge-token-2026',
-      apiUrl: 'https://demo2026pondy-production.up.railway.app',
+      apiUrl: 'https://conestone2026-production.up.railway.app',
       pollIntervalMs: 2000,
       port: 3050
     };
